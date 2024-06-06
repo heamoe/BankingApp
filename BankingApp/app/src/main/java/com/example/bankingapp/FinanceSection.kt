@@ -88,9 +88,10 @@ fun FinanceItem(
         verticalArrangement = Arrangement.SpaceBetween)
     {
         Box(modifier = Modifier
+            .offset(y = 7.dp)
             .clip(RoundedCornerShape(16.dp))
-            .padding(6.dp)
-            .background(finance.background)){
+            .background(finance.background)
+            .padding(4.dp)){
             Icon(imageVector = finance.icon,
                 contentDescription = finance.name,
                 tint = Color.White)
