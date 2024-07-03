@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.Amos.bankingapp"
+    namespace = "com.Amos.BankingApp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.Amos.bankingapp"
+        applicationId = "com.Amos.BankingApp"
         minSdk = 30
         targetSdk = 34
         versionCode = 1
